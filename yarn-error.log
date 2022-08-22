@@ -14,17 +14,17 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: canceled
-      at Interface.<anonymous> (C:\Users\Rahul Raj Dahal\.node\corepack\yarn\1.22.15\lib\cli.js:137145:13)
-      at Interface.emit (node:events:527:28)
-      at Interface._ttyWrite (node:readline:1081:16)
-      at ReadStream.onkeypress (node:readline:288:10)
-      at ReadStream.emit (node:events:527:28)
-      at emitKeys (node:internal/readline/utils:358:14)
-      at emitKeys.next (<anonymous>)
-      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
-      at ReadStream.emit (node:events:527:28)
-      at addChunk (node:internal/streams/readable:315:12)
+  Error: https://npm.pkg.github.com/rahulrajdahal/-/user/org.couchdb.user:rahulrajdahal: Request "https://npm.pkg.github.com/rahulrajdahal/-/user/org.couchdb.user:rahulrajdahal" returned a 405
+      at Request.params.callback [as _callback] (C:\Users\Rahul Raj Dahal\.node\corepack\yarn\1.22.15\lib\cli.js:66149:18)
+      at Request.self.callback (C:\Users\Rahul Raj Dahal\.node\corepack\yarn\1.22.15\lib\cli.js:140885:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (C:\Users\Rahul Raj Dahal\.node\corepack\yarn\1.22.15\lib\cli.js:141857:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (C:\Users\Rahul Raj Dahal\.node\corepack\yarn\1.22.15\lib\cli.js:141779:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
 
 npm manifest: 
   {
