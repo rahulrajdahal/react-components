@@ -1,10 +1,12 @@
 {
   "name": "@rahulrajdahal/react-components",
+  "publishConfig": {
+    "@rahulrajdahal:registry": "https://npm.pkg.github.com/rahulrajdahal"
+  },
   "version": "1.0.0",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "license": "MIT",
-
   "scripts": {
     "build": "rollup -c",
     "storybook": "start-storybook -p 6006",
